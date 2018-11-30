@@ -22,7 +22,18 @@ public class AQICalculatorTest {
 	calculator = AQICalculator.getAQICalculatorInstance();
     }
 
+
+	@Test
+	public void exampleTest() throws IOException, Exception {
+//		double[] data = { 64, 63, 72, 77, 65, 61, 70, 71, 64, 57, 58, 64 };
+		double concentration = 9;
+		AQIResult result =calculator.getAQI(Pollutant.PM25,concentration);
+
+		int expectedAQI = 28;
+		assertEquals(expectedAQI, result.getAqi());
+	}
     /**
+	 *
      * --- Begin of AQI Test for PM10 ---------------------
      **/
 
