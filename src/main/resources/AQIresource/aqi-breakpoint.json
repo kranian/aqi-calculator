@@ -157,36 +157,36 @@
   },
   {
     "code": "CO",
-    "unit": "ppm",
+    "unit": "ppb",
     "period": "1h",
     "concentrations": [
       {
         "min": 0,
-        "max": 20000,
+        "max": 2000,
         "index": {
           "min": 0,
           "max": 50
         }
       },
       {
-        "min": 20001,
-        "max": 90000,
+        "min": 2001,
+        "max": 9000,
         "index": {
           "min": 51,
           "max": 100
         }
       },
       {
-        "min": 90001,
-        "max": 150000,
+        "min": 9001,
+        "max": 15000,
         "index": {
           "min": 101,
           "max": 250
         }
       },
       {
-        "min": 150001,
-        "max": 500000,
+        "min": 15001,
+        "max": 50000,
         "index": {
           "min": 251,
           "max": 500
